@@ -1,0 +1,73 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+
+/* shared styles */
+
+* {
+  font-family: 'Work Sans';
+}
+
+/* header and navigation styles */
+
+nav {
+  width: 1920px;
+  height: 130px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+
+}
+
+.nav-img{
+  display: flex;
+  gap: 15px;
+}
+
+#logo-img{
+  width: 86px;
+  height: 40px;
+  margin-top: 35px;
+}
+
+.game{
+  color:rgb(244, 48, 139);  
+}
+
+nav>ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 28px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.li{
+  margin-top: 25px;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.10);
+  width: 262px;
+  height: 56px;
+  padding: 8px;
+}
+
+
+
